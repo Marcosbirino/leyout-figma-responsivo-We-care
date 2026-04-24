@@ -115,8 +115,16 @@ main {
     }
 
     main {
-        margin: 149px 22px 334px 22px;
-        display: inline-block;
+        /* Removi o inline-block para ele ocupar a largura real da tela */
+        margin: 50px 0; 
+        display: block;
+        text-align: center; /* Centraliza tudo automaticamente */
+    }
+
+    .caixa {
+        display: block;
+        margin-left: 0; /* Remove a margem que empurrava o conteúdo */
+        padding: 0 20px;
     }
 
     p {
@@ -124,48 +132,31 @@ main {
     }
 
     h1 {
-        width: 263;
-        height: 52;
-        opacity: 1;
-        font-weight: 900;
-        font-size: 50px;
+        font-size: 40px; /* Diminuído para caber melhor */
         line-height: 100%;
-        letter-spacing: 0%;
-        margin-left: 150px;
-        margin-top: 26px;
+        margin: 20px 0; /* Margem em cima e embaixo, centralizado */
         text-align: center;
-  
     }
 
     h2 {
-        width: 232;
-        height: 37;
-        font-weight: 500;
-        font-size: 30px;
+        font-size: 24px;
         line-height: 100%;
-        letter-spacing: 0%;
         color: #515151;
-        margin-left: 150px;
+        margin-bottom: 20px;
         text-align: center;
-       
     }
-
 
     .explore {
-        margin-left: 150px;
-        margin-top: 17px;
-
+        margin: 20px auto; /* Centraliza o botão */
+        display: block; /* Necessário para o margin auto funcionar */
     }
-
 
     .img-logo {
-        width: 354;
-        height: 317;
-        opacity: 1;
-        margin-left: 50px;
-        margin-right: 50px;
-        
+        /* A mágica aqui: max-width impede de estourar a tela */
+        width: 100%; 
+        max-width: 300px; 
+        height: auto; /* Mantém a proporção da imagem */
+        margin: 0 auto;
+        display: block;
     }
-
-    
 }
