@@ -9,7 +9,7 @@
 header {
     
     word-spacing: 10px;
-    margin: 44px 0 144px 76px;
+    margin: 40px 0 140px 70px;
     
    
     
@@ -18,7 +18,7 @@ header {
 
 .menu {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     color: #989D9C;
     cursor: pointer;
@@ -27,9 +27,10 @@ header {
 
 .loguin {
     width: 130px;
-    height: 41px;
+    height: 40px;
+    word-spacing: 10px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     color: #fff;
     border-radius: 50px;
@@ -39,20 +40,23 @@ header {
     
 }
 
+main {
+     display: inline-block;
+     margin-top: -75px;
+     margin-bottom: 10px;
+     
+
+}
+
 .img-logo {
-    width: 568px;
-    height: 500px;
-    margin-left: 100px;
+    width: 540px;
+    height: 450px;
+    margin-left: 50px;
     display: inline-block;
 
 }
 
 
-div {
-    display: inline-block;
-    margin-left: 86px;
-    
-}
 
 h1 {
     font-weight: 900;
@@ -84,17 +88,17 @@ p {
 
 .explore {
     border-radius: 50px;
-    width: 239px;
-    height: 64px;
+    width: 165px;
+    height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background: #ADFF00;
     border: none;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 700px;
+    font-size: 20px;
     color: #000;
-    margin-top: 65px;
-    margin-bottom: 240px;
+    margin-top: 50px;
+   
 }
 
 .caixa {
@@ -104,10 +108,7 @@ p {
    
 }
 
-main {
-     display: inline-block;
 
-}
 
 @media screen and (max-width: 700px) {
     header {
@@ -129,7 +130,7 @@ main {
 
     p {
         display: none;
-    }
+     }
 
     h1 {
         font-size: 40px; /* Diminuído para caber melhor */
